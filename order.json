@@ -1,0 +1,801 @@
+[
+    {
+        "id": 1,
+        "order": "cd",
+        "description": "Change directory"
+    },
+    {
+        "id": 2,
+        "order": "ls",
+        "description": "List files and directories"
+    },
+    {
+        "id": 3,
+        "order": "pwd",
+        "description": "Print working directory"
+    },
+    {
+        "id": 4,
+        "order": "cp",
+        "description": "Copy files and directories"
+    },
+    {
+        "id": 5,
+        "order": "mv",
+        "description": "Move or rename files and directories"
+    },
+    {
+        "id": 6,
+        "order": "rm",
+        "description": "Remove files and directories"
+    },
+    {
+        "id": 7,
+        "order": "cat",
+        "description": "Concatenate and display file content"
+    },
+    {
+        "id": 8,
+        "order": "less",
+        "description": "View file content interactively"
+    },
+    {
+        "id": 9,
+        "order": "head",
+        "description": "Display the beginning of a file"
+    },
+    {
+        "id": 10,
+        "order": "tail",
+        "description": "Display the end of a file"
+    },
+    {
+        "id": 11,
+        "order": "chmod",
+        "description": "Change file permissions"
+    },
+    {
+        "id": 12,
+        "order": "chown",
+        "description": "Change file ownership"
+    },
+    {
+        "id": 13,
+        "order": "chgrp",
+        "description": "Change group ownership"
+    },
+    {
+        "id": 14,
+        "order": "vi",
+        "description": "Text editor for creating and editing files"
+    },
+    {
+        "id": 15,
+        "order": "useradd",
+        "description": "Add a new user"
+    },
+    {
+        "id": 16,
+        "order": "userdel",
+        "description": "Delete a user"
+    },
+    {
+        "id": 17,
+        "order": "passwd",
+        "description": "Set or change user password"
+    },
+    {
+        "id": 18,
+        "order": "groupadd",
+        "description": "Add a new group"
+    },
+    {
+        "id": 19,
+        "order": "groupdel",
+        "description": "Delete a group"
+    },
+    {
+        "id": 20,
+        "order": "usermod",
+        "description": "Modify user account properties"
+    },
+    {
+        "id": 21,
+        "order": "groupmod",
+        "description": "Modify group properties"
+    },
+    {
+        "id": 22,
+        "order": "su",
+        "description": "Switch to another user account"
+    },
+    {
+        "id": 23,
+        "order": "sudo",
+        "description": "Execute commands with superuser privileges"
+    },
+    {
+        "id": 24,
+        "order": "ps",
+        "description": "List running processes"
+    },
+    {
+        "id": 25,
+        "order": "kill",
+        "description": "Terminate a process"
+    },
+    {
+        "id": 26,
+        "order": "top",
+        "description": "Monitor system performance and running processes"
+    },
+    {
+        "id": 27,
+        "order": "uptime",
+        "description": "Display system uptime"
+    },
+    {
+        "id": 28,
+        "order": "systemctl",
+        "description": "Control services and daemons"
+    },
+    {
+        "id": 29,
+        "order": "systemctl enable",
+        "description": "Enable services to start at boot"
+    },
+    {
+        "id": 30,
+        "order": "systemctl status",
+        "description": "Check the status of services"
+    },
+    {
+        "id": 31,
+        "order": "gnome-control-center",
+        "description": "Graphical tool to manage services"
+    },
+    {
+        "id": 32,
+        "order": "system-config-services",
+        "description": "Graphical tool to manage services"
+    },
+    {
+        "id": 33,
+        "order": "systemctl start",
+        "description": "Start a service"
+    },
+    {
+        "id": 34,
+        "order": "systemctl stop",
+        "description": "Stop a service"
+    },
+    {
+        "id": 35,
+        "order": "systemctl restart",
+        "description": "Restart a service"
+    },
+    {
+        "id": 36,
+        "order": "systemctl reload",
+        "description": "Reload the configuration of a service"
+    },
+    {
+        "id": 37,
+        "order": "systemctl status",
+        "description": "Check the status of a service"
+    },
+    {
+        "id": 38,
+        "order": "systemctl disable",
+        "description": "Disable a service from starting at boot"
+    },
+    {
+        "id": 39,
+        "order": "systemctl mask",
+        "description": "Mask a service to prevent it from starting"
+    },
+    {
+        "id": 40,
+        "order": "firewall-cmd",
+        "description": "Manage firewall rules"
+    },
+    {
+        "id": 41,
+        "order": "getenforce",
+        "description": "Check the SELinux enforcement mode"
+    },
+    {
+        "id": 42,
+        "order": "setenforce",
+        "description": "Change the SELinux enforcement mode"
+    },
+    {
+        "id": 43,
+        "order": "sestatus",
+        "description": "Display the current SELinux status"
+    },
+    {
+        "id": 44,
+        "order": "lsblk",
+        "description": "List block devices"
+    },
+    {
+        "id": 45,
+        "order": "fdisk",
+        "description": "Partition table manipulator"
+    },
+    {
+        "id": 46,
+        "order": "mkfs",
+        "description": "Create a filesystem"
+    },
+    {
+        "id": 47,
+        "order": "mount",
+        "description": "Mount a filesystem"
+    },
+    {
+        "id": 48,
+        "order": "umount",
+        "description": "Unmount a filesystem"
+    },
+    {
+        "id": 49,
+        "order": "df",
+        "description": "Display disk space usage"
+    },
+    {
+        "id": 50,
+        "order": "du",
+        "description": "Estimate file and directory space usage"
+    },
+    {
+        "id": 51,
+        "order": "tar",
+        "description": "Manipulate archive files"
+    },
+    {
+        "id": 52,
+        "order": "gzip",
+        "description": "Compress files"
+    },
+    {
+        "id": 53,
+        "order": "gunzip",
+        "description": "Decompress files"
+    },
+    {
+        "id": 54,
+        "order": "ssh",
+        "description": "Secure shell remote login"
+    },
+    {
+        "id": 55,
+        "order": "scp",
+        "description": "Securely copy files between hosts"
+    },
+    {
+        "id": 56,
+        "order": "rsync",
+        "description": "Remote file synchronization"
+    },
+    {
+        "id": 57,
+        "order": "ls",
+        "description": "List files and directories"
+    },
+    {
+        "id": 58,
+        "order": "pwd",
+        "description": "Print the current working directory"
+    },
+    {
+        "id": 59,
+        "order": "cd",
+        "description": "Change directory"
+    },
+    {
+        "id": 60,
+        "order": "mkdir",
+        "description": "Create a directory"
+    },
+    {
+        "id": 61,
+        "order": "rmdir",
+        "description": "Remove a directory"
+    },
+    {
+        "id": 62,
+        "order": "touch",
+        "description": "Create an empty file"
+    },
+    {
+        "id": 63,
+        "order": "cp",
+        "description": "Copy files and directories"
+    },
+    {
+        "id": 64,
+        "order": "mv",
+        "description": "Move or rename files and directories"
+    },
+    {
+        "id": 65,
+        "order": "rm",
+        "description": "Remove files and directories"
+    },
+    {
+        "id": 66,
+        "order": "cat",
+        "description": "Concatenate and display files"
+    },
+    {
+        "id": 67,
+        "order": "less",
+        "description": "View file content with pagination"
+    },
+    {
+        "id": 68,
+        "order": "head",
+        "description": "Display the first lines of a file"
+    },
+    {
+        "id": 69,
+        "order": "tail",
+        "description": "Display the last lines of a file"
+    },
+    {
+        "id": 70,
+        "order": "grep",
+        "description": "Search for patterns in files"
+    },
+    {
+        "id": 71,
+        "order": "find",
+        "description": "Search for files and directories"
+    },
+    {
+        "id": 72,
+        "order": "wc",
+        "description": "Count lines, words, and characters"
+    },
+    {
+        "id": 73,
+        "order": "chmod",
+        "description": "Change file permissions"
+    },
+    {
+        "id": 74,
+        "order": "chown",
+        "description": "Change file ownership"
+    },
+    {
+        "id": 75,
+        "order": "chgrp",
+        "description": "Change group ownership"
+    },
+    {
+        "id": 76,
+        "order": "useradd",
+        "description": "Create a new user account"
+    },
+    {
+        "id": 77,
+        "order": "usermod",
+        "description": "Modify a user account"
+    },
+    {
+        "id": 78,
+        "order": "userdel",
+        "description": "Delete a user account"
+    },
+    {
+        "id": 79,
+        "order": "groupadd",
+        "description": "Create a new group"
+    },
+    {
+        "id": 80,
+        "order": "groupmod",
+        "description": "Modify a group"
+    },
+    {
+        "id": 81,
+        "order": "groupdel",
+        "description": "Delete a group"
+    },
+    {
+        "id": 82,
+        "order": "passwd",
+        "description": "Change user password"
+    },
+    {
+        "id": 83,
+        "order": "su",
+        "description": "Switch user"
+    },
+    {
+        "id": 84,
+        "order": "sudo",
+        "description": "Execute a command as another user"
+    },
+    {
+        "id": 85,
+        "order": "yum",
+        "description": "Package manager for RHEL"
+    },
+    {
+        "id": 86,
+        "order": "dnf",
+        "description": "Package manager for Fedora"
+    },
+    {
+        "id": 87,
+        "order": "rpm",
+        "description": "Package manager for RPM-based distributions"
+    },
+    {
+        "id": 88,
+        "order": "systemd",
+        "description": "System and service manager"
+    },
+    {
+        "id": 89,
+        "order": "journalctl",
+        "description": "View system logs"
+    },
+    {
+        "id": 90,
+        "order": "systemctl",
+        "description": "Control system services"
+    },
+    {
+        "id": 91,
+        "order": "lsusb",
+        "description": "List USB devices"
+    },
+    {
+        "id": 92,
+        "order": "lspci",
+        "description": "List PCI devices"
+    },
+    {
+        "id": 93,
+        "order": "lsmod",
+        "description": "List loaded kernel modules"
+    },
+    {
+        "id": 94,
+        "order": "modprobe",
+        "description": "Load or unload kernel modules"
+    },
+    {
+        "id": 95,
+        "order": "uname",
+        "description": "Print system information"
+    },
+    {
+        "id": 96,
+        "order": "dmesg",
+        "description": "Print or control the kernel ring buffer"
+    },
+    {
+        "id": 97,
+        "order": "ps",
+        "description": "View currently running processes"
+    },
+    {
+        "id": 98,
+        "order": "top",
+        "description": "Monitor system activity and processes"
+    },
+    {
+        "id": 99,
+        "order": "kill",
+        "description": "Terminate processes"
+    },
+    {
+        "id": 100,
+        "order": "shutdown",
+        "description": "Shut down or restart the system"
+    },
+    {
+        "id": 101,
+        "order": "lsblk",
+        "description": "List block devices"
+    },
+    {
+        "id": 102,
+        "order": "fdisk",
+        "description": "Manipulate disk partition table"
+    },
+    {
+        "id": 103,
+        "order": "mkfs",
+        "description": "Create a filesystem"
+    },
+    {
+        "id": 104,
+        "order": "mount",
+        "description": "Mount a filesystem"
+    },
+    {
+        "id": 105,
+        "order": "umount",
+        "description": "Unmount a filesystem"
+    },
+    {
+        "id": 106,
+        "order": "df",
+        "description": "Display filesystem disk space usage"
+    },
+    {
+        "id": 107,
+        "order": "du",
+        "description": "Estimate file and directory space usage"
+    },
+    {
+        "id": 108,
+        "order": "tar",
+        "description": "Manipulate archive files"
+    },
+    {
+        "id": 109,
+        "order": "gzip",
+        "description": "Compress files"
+    },
+    {
+        "id": 110,
+        "order": "gunzip",
+        "description": "Decompress files"
+    },
+    {
+        "id": 111,
+        "order": "dd",
+        "description": "Convert and copy files"
+    },
+    {
+        "id": 112,
+        "order": "find",
+        "description": "Search files and directories"
+    },
+    {
+        "id": 113,
+        "order": "grep",
+        "description": "Search text patterns"
+    },
+    {
+        "id": 114,
+        "order": "sed",
+        "description": "Stream editor for text manipulation"
+    },
+    {
+        "id": 115,
+        "order": "awk",
+        "description": "Pattern scanning and text processing"
+    },
+    {
+        "id": 116,
+        "order": "chmod",
+        "description": "Change file permissions"
+    },
+    {
+        "id": 117,
+        "order": "chown",
+        "description": "Change file ownership"
+    },
+    {
+        "id": 118,
+        "order": "chgrp",
+        "description": "Change group ownership"
+    },
+    {
+        "id": 119,
+        "order": "ln",
+        "description": "Create links between files"
+    },
+    {
+        "id": 120,
+        "order": "cp",
+        "description": "Copy files and directories"
+    },
+    {
+        "id": 121,
+        "order": "mv",
+        "description": "Move or rename files and directories"
+    },
+    {
+        "id": 122,
+        "order": "rm",
+        "description": "Remove files and directories"
+    },
+    {
+        "id": 123,
+        "order": "mkdir",
+        "description": "Create directories"
+    },
+    {
+        "id": 124,
+        "order": "rmdir",
+        "description": "Remove empty directories"
+    },
+    {
+        "id": 125,
+        "order": "cat",
+        "description": "Concatenate and display file content"
+    },
+    {
+        "id": 126,
+        "order": "less",
+        "description": "View file content with pagination"
+    },
+    {
+        "id": 127,
+        "order": "more",
+        "description": "View file content page by page"
+    },
+    {
+        "id": 128,
+        "order": "head",
+        "description": "Display the beginning of a file"
+    },
+    {
+        "id": 129,
+        "order": "tail",
+        "description": "Display the end of a file"
+    },
+    {
+        "id": 130,
+        "order": "wc",
+        "description": "Word, line, character, and byte count"
+    },
+    {
+        "id": 131,
+        "order": "sort",
+        "description": "Sort lines in text files"
+    },
+    {
+        "id": 132,
+        "order": "uniq",
+        "description": "Report or omit repeated lines"
+    },
+    {
+        "id": 133,
+        "order": "cut",
+        "description": "Remove sections from lines of files"
+    },
+    {
+        "id": 134,
+        "order": "paste",
+        "description": "Merge lines from multiple files"
+    },
+    {
+        "id": 135,
+        "order": "comm",
+        "description": "Compare two sorted files line by line"
+    },
+    {
+        "id": 136,
+        "order": "diff",
+        "description": "Compare files line by line"
+    },
+    {
+        "id": 137,
+        "order": "file",
+        "description": "Determine file type"
+    },
+    {
+        "id": 138,
+        "order": "which",
+        "description": "Locate a command"
+    },
+    {
+        "id": 139,
+        "order": "whereis",
+        "description": "Locate the binary, source, and manual page files for a command"
+    },
+    {
+        "id": 140,
+        "order": "man",
+        "description": "Display the manual page for a command"
+    },
+    {
+        "id": 141,
+        "order": "pwd",
+        "description": "Print the current working directory"
+    },
+    {
+        "id": 142,
+        "order": "cd",
+        "description": "Change the current working directory"
+    },
+    {
+        "id": 143,
+        "order": "ls",
+        "description": "List files and directories"
+    },
+    {
+        "id": 144,
+        "order": "find",
+        "description": "Search for files and directories"
+    },
+    {
+        "id": 145,
+        "order": "grep",
+        "description": "Search for patterns in files"
+    },
+    {
+        "id": 146,
+        "order": "chmod",
+        "description": "Change file permissions"
+    },
+    {
+        "id": 147,
+        "order": "chown",
+        "description": "Change file ownership"
+    },
+    {
+        "id": 148,
+        "order": "chgrp",
+        "description": "Change group ownership of files"
+    },
+    {
+        "id": 149,
+        "order": "tar",
+        "description": "Manipulate tape archives"
+    },
+    {
+        "id": 150,
+        "order": "gzip",
+        "description": "Compress files"
+    },
+    {
+        "id": 151,
+        "order": "gunzip",
+        "description": "Decompress files"
+    },
+    {
+        "id": 152,
+        "order": "passwd",
+        "description": "Change user password"
+    },
+    {
+        "id": 153,
+        "order": "useradd",
+        "description": "Add a user account"
+    },
+    {
+        "id": 154,
+        "order": "usermod",
+        "description": "Modify user account"
+    },
+    {
+        "id": 155,
+        "order": "userdel",
+        "description": "Delete a user account"
+    },
+    {
+        "id": 156,
+        "order": "groupadd",
+        "description": "Add a group"
+    },
+    {
+        "id": 157,
+        "order": "groupmod",
+        "description": "Modify a group"
+    },
+    {
+        "id": 158,
+        "order": "groupdel",
+        "description": "Delete a group"
+    },
+    {
+        "id": 159,
+        "order": "su",
+        "description": "Switch user"
+    },
+    {
+        "id": 160,
+        "order": "sudo",
+        "description": "Execute command as superuser"
+    }]
