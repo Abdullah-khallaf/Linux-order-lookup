@@ -798,4 +798,380 @@
         "id": 160,
         "order": "sudo",
         "description": "Execute command as superuser"
-    }]
+    },
+    {
+        "id": 161,
+        "order": "/boot",
+        "description": "Contains boot loader files, kernel images, and other files required for booting the system."
+    },
+    {
+        "id": 162,
+        "order": "/usr",
+        "description": "Contains user-shared files like system-wide binaries, libraries, documentation, and configuration files."
+    },
+    {
+        "id": 163,
+        "order": "/mnt",
+        "description": "Used as a mount point for mounting external file systems."
+    },
+    {
+        "id": 164,
+        "order": "/media",
+        "description": "Used as a mount point for mounting removable media such as CDs, DVDs, and USB drives."
+    },
+    {
+        "id": 165,
+        "order": "/srv",
+        "description": "Used to store data for services provided by the system."
+    },
+    {
+        "id": 166,
+        "order": "/opt",
+        "description": "Used to install optional or third-party software."
+    },
+    {
+        "id": 167,
+        "order": "/lib",
+        "description": "Contains libraries that are required by the system and user applications."
+    },
+    {
+        "id": 168,
+        "order": "/etc",
+        "description": "Contains configuration files for the system and applications."
+    },
+    {
+        "id": 169,
+        "order": "/etc/passwd",
+        "description": "Contains information about the users of the system."
+    },
+    {
+        "id": 170,
+        "order": "/etc/shadow",
+        "description": "Contains password information for the users of the system."
+    },
+    {
+        "id": 171,
+        "order": "/etc/group",
+        "description": "Contains information about the groups in the system."
+    },
+    {
+        "id": 172,
+        "order": "/etc/sudoers",
+        "description": "Contains the permissions for users to use the sudo command."
+    },
+    {
+        "id": 173,
+        "order": "/dev",
+        "description": "Contains files that represent devices on the system."
+    },
+    {
+        "id": 174,
+        "order": "/dev/null",
+        "description": "A special file that discards all data written to it."
+    },
+    {
+        "id": 175,
+        "order": "/dev/pts/0",
+        "description": "A file that represents the screen for terminal emulators."
+    },
+    {
+        "id": 176,
+        "order": "/proc",
+        "description": "Contains information about running processes and system configuration."
+    },
+    {
+        "id": 177,
+        "order": "/root",
+        "description": "Home directory for the root user."
+    },
+    {
+        "id": 178,
+        "order": "/bin",
+        "description": "Contains binary files that all users can access."
+    },
+    {
+        "id": 179,
+        "order": "/sbin",
+        "description": "Contains system binaries that are used for system administration tasks. These binaries are typically only executable by the root user."
+    },
+    {
+        "id": 180,
+        "order": "/var",
+        "description": "Contains variable files that change continuously like mails and log files."
+    },
+    {
+        "id": 181,
+        "order": "/var/log",
+        "description": "Contains system log files."
+    },
+    {
+        "id": 182,
+        "order": "/tmp",
+        "description": "Used to store temporary files that are created by the system and user applications. These files are typically deleted when the system is rebooted."
+    },
+    {
+        "id": 183,
+        "order": "ALT + CTRL + F1",
+        "description": " To switch modes in VMware, However, before doing so, you need to edit the hotkey preferences from the Edit menu to use ALT, CTRL, and SHIFT."
+    },
+    {
+        "id": 184,
+        "order": "CTRL + ALT + F2",
+        "description": "To switch to TTY2"
+    },
+    {
+        "id": 185,
+        "order": "CTRL + ALT + F3",
+        "description": "To switch to TTY3"
+    },
+    {
+        "id": 186,
+        "order": "CTRL + ALT + F1",
+        "description": "To switch to GUI"
+    },
+    {
+        "id": 187,
+        "order": "Root",
+        "description": "The administrator, also known as the super user, who has all permissions.Has a user ID of ZERO (0)."
+    },
+    {
+        "id": 188,
+        "order": "Normal Users",
+        "description": "Any user who has no permission except those assigned by the root.UserID is greater than or equal to 500."
+    },
+    {
+        "id": 189,
+        "order": "Service Users",
+        "description": "These are users who have permission related to the server. UserID is greater than 0 and less than 500 (1-499). Do not have permission to log in to the machine."
+    },
+    {
+        "id": 190,
+        "order": "/etc/passwd",
+        "description": "All users stored here and Each row is represented by: UserName:Password(x):userId:GroupId:GECOS(any arbitrary value):homeDir:Bash(sh, zsh, ksh, csh, python)"
+    },
+    {
+        "id": 191,
+        "order": "/etc/shadow",
+        "description": "user password stored here and !! means there is no password for this user"
+    },
+    {
+        "id": 192,
+        "order": "/usr/sbin/nologin",
+        "description": "The shell of the service user "
+    },
+    {
+        "id": 193,
+        "order": "/usr/sbin/nologin , usermod -s /usr/sbin/nologin",
+        "description": "To make a user have no permission to log in to your system, set their shell"
+    },
+    {
+        "id": 194,
+        "order": "/etc/skel/test_file",
+        "description": "To add a file that will appear for each new user"
+    },
+    {
+        "id": 195,
+        "order": "su \"username\"",
+        "description": "Switch user - to switch to a new user"
+    },
+    {
+        "id": 196,
+        "order": "su -",
+        "description": "Switch to root user"
+    },
+    {
+        "id": 197,
+        "order": "useradd \"username\"",
+        "description": ""
+    },
+    {
+        "id": 198,
+        "order": "useradd -p password -u userId -g GroupId -c GECOS -s shell",
+        "description": ""
+    },
+    {
+        "id": 199,
+        "order": "passwd",
+        "description": "Change the password of the user"
+    },
+    {
+        "id": 200,
+        "order": "w",
+        "description": "Get all signed-in users on the machine"
+    },
+    {
+        "id": 201,
+        "order": "id",
+        "description": "Information about the user that registered now such as uid, gid, and others"
+    },
+    {
+        "id": 202,
+        "order": "id \"userName\"",
+        "description": ""
+    },
+    {
+        "id": 203,
+        "order": "id -u \"userName\"",
+        "description": "Get the id of the user"
+    },
+    {
+        "id": 204,
+        "order": "usermod",
+        "description": "Change the user info such as uid, GECOS, gid, and others"
+    },
+    {
+        "id": 205,
+        "order": "usermod -G",
+        "description": "Set the secondary group"
+    },
+    {
+        "id": 206,
+        "order": "usermod -aG",
+        "description": "Append a secondary group"
+    },
+    {
+        "id": 207,
+        "order": "groupmod",
+        "description": "Change the group info"
+    },
+    {
+        "id": 208,
+        "order": "groupmod -g GID -n newName admin",
+        "description": ""
+    },
+    {
+        "id": 209,
+        "order": "userdel -r",
+        "description": "Delete user with the home directory"
+    },
+    {
+        "id": 210,
+        "order": "chage",
+        "description": "Change the password configuration as the expiration date and others"
+    },
+    {
+        "id": 211,
+        "order": "d",
+        "description": "For file directory"
+    },
+    {
+        "id": 212,
+        "order": "-",
+        "description": "For regular files"
+    },
+    {
+        "id": 213,
+        "order": "c",
+        "description": "For character files (data transferred char by char)"
+    },
+    {
+        "id": 214,
+        "order": "b",
+        "description": "For block files (data transferred via blocks/chunks)"
+    },
+    {
+        "id": 215,
+        "order": "l",
+        "description": "For link files (shortcuts)"
+    },
+    {
+        "id": 216,
+        "order": "p",
+        "description": "For pipe files"
+    },
+    {
+        "id": 217,
+        "order": "r",
+        "description": "file mode r: For a file, this means the ability to read the contents of the file. For a directory, this means the ability to list the files and directories within the directory using the ls command."
+    },
+    {
+        "id": 218,
+        "order": "w",
+        "description": "file mode w: For a file, this means the ability to edit the contents of the file or delete it. For a directory, this means the ability to add or remove files from the directory."
+    },
+    {
+        "id": 219,
+        "order": "x",
+        "description": "file mode x: For a file, this means the ability to execute the file if it is an application or script.For a directory, this means the ability to change to that directory using the cd command."
+    },
+    {
+        "id": 220,
+        "order": "chown",
+        "description": "file ownership and group ownership: command is used to change the owner of a file or directory.Only the root user can change the ownership of files. "
+    },
+    {
+        "id": 221,
+        "order": "chown ali /home/student/hamada",
+        "description": "file ownership and group ownership: o change the owner of the file hamada to user ali in the /home/student/ directory"
+    },
+    {
+        "id": 222,
+        "order": "chown :admins /home/student/hamada",
+        "description": "file ownership and group ownership: To change the group ownership of hamada to the admins group, you can use the command"
+    },
+    {
+        "id": 223,
+        "order": "chgrp",
+        "description": "file ownership and group ownership: command is used to change the group ownership of a file. For example, chgrp admin hamada changes the group ownership of hamada to the admin group."
+    },
+    {
+        "id": 224,
+        "order": "chmod",
+        "description": "change file permission: The chmod command is used to change the permissions of a file or directory"
+    },
+    {
+        "id": 225,
+        "order": "g+w",
+        "description": "Change file permissions:  adds write permission for the group"
+    },
+    {
+        "id": 226,
+        "order": "o+r",
+        "description": "Change file permissions:  adds read permission for others"
+    },
+    {
+        "id": 227,
+        "order": "u-w",
+        "description": "Change file permissions:  removes write permission for the owner"
+    },
+    {
+        "id": 228,
+        "order": "u+x g+x",
+        "description": "Change file permissions:  You can change the permissions for multiple users by separating their permissions with a space,"
+    },
+    {
+        "id": 229,
+        "order": "u+rw",
+        "description": "Change file permissions:   grants read and write permissions for the owner"
+    },
+    {
+        "id": 230,
+        "order": "ug-w",
+        "description": "Change file permissions:   grants write permission for both the owner and group."
+    },
+    {
+        "id": 231,
+        "order": "u=w",
+        "description": "Change file permissions:   sets the permissions to only allow the owner to write."
+    },
+    {
+        "id": 232,
+        "order": "a+x",
+        "description": "Change file permissions:   grants execute permission for all users.."
+    },
+    {
+        "id": 233,
+        "order": "chmod 644 hamada",
+        "description": "Change file permissions:   means that hamada has permissions wr- r-- r--."
+    },
+    {
+        "id": 234,
+        "order": "chmod -R 644 hamada",
+        "description": "Change file permissions:   changes the permissions for the directory hamada and all files and directories within it recursively."
+    },
+    {
+        "id": 235,
+        "order": "chmod =rwx hamada",
+        "description": "Change file permissions:   changes the owner permissions to read, write, and execute."
+    }
+]
